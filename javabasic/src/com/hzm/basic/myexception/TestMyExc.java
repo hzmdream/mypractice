@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class TestMyExc {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		while (true) {
 			Scanner sc = new Scanner(System.in);
